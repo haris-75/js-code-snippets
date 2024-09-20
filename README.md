@@ -218,3 +218,23 @@ Output:
 
 > Error 1
 > Success 4
+
+
+#### Snippet 11
+```javascript
+let name = 'George';
+console.log('name => ',name);
+function callName(){
+	console.log('name => ',name);
+	let name='Stuart';
+	console.log('name => ',name);
+}
+callName();
+console.log('name => ',name);
+```
+
+Output:
+
+> name => George
+
+> Reference ERROR

@@ -238,3 +238,16 @@ Output:
 > name => George
 
 > Reference ERROR
+
+#### Snippet 12
+```javascript
+let x = true;
+setTimeout(()=>{x=false},1000);
+while(x){
+	console.log('Welcome User 1');
+}
+```
+
+Output:
+
+> Welcome User 1 // will be consoled infinitly
